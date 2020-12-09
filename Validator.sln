@@ -1,36 +1,48 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "Validator\Validator.csproj", "{D73802A8-5B78-4F2E-B08C-7F47FA4807F3}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "Validator\Validator.csproj", "{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator.UnitTest", "Validator.UnitTest\Validator.UnitTest.csproj", "{731AB120-B00F-41F2-9B3E-7FDDE5930FB8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F70E9A6-AF26-4615-A6D0-941B265E79FF}"
-	ProjectSection(SolutionItems) = preProject
-		appveyor.yml = appveyor.yml
-		nuget.exe = nuget.exe
-		pack.ps1 = pack.ps1
-		Validator.nuspec = Validator.nuspec
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator.UnitTest", "Validator.UnitTest\Validator.UnitTest.csproj", "{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D73802A8-5B78-4F2E-B08C-7F47FA4807F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D73802A8-5B78-4F2E-B08C-7F47FA4807F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D73802A8-5B78-4F2E-B08C-7F47FA4807F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D73802A8-5B78-4F2E-B08C-7F47FA4807F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{731AB120-B00F-41F2-9B3E-7FDDE5930FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{731AB120-B00F-41F2-9B3E-7FDDE5930FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{731AB120-B00F-41F2-9B3E-7FDDE5930FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{731AB120-B00F-41F2-9B3E-7FDDE5930FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|x64.Build.0 = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Debug|x86.Build.0 = Debug|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|x64.ActiveCfg = Release|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|x64.Build.0 = Release|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|x86.ActiveCfg = Release|Any CPU
+		{0D7ADED3-1DE8-4EE6-BD4C-ADCEDEC0BAF4}.Release|x86.Build.0 = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|x64.Build.0 = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Debug|x86.Build.0 = Debug|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|x64.ActiveCfg = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|x64.Build.0 = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|x86.ActiveCfg = Release|Any CPU
+		{13CE49C7-AAB2-424A-9853-52C5E1F2E90C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
