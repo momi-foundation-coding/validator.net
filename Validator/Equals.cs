@@ -10,4 +10,3 @@ namespace Validator {
       input.Equals(comparison);
   }
 }
-

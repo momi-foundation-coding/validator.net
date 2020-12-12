@@ -11,4 +11,3 @@ namespace Validator {
       Regex.IsMatch(input, "^[0-9a-fA-F]+$");
   }
 }
-

@@ -9,5 +9,4 @@ namespace Validator {
       input.Length == 24 && IsHexadecimal(input);
   }
 }
-
-        
+     

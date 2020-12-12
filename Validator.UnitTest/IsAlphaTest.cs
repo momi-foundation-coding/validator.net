@@ -1,7 +1,4 @@
-
-using System;
 using Xunit;
-
 namespace Validator.UnitTest
 {
   public partial class ValidatorTest

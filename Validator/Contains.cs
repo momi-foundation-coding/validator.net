@@ -10,6 +10,4 @@ namespace Validator {
       input.Contains(element);
   }
 }
-
-
         

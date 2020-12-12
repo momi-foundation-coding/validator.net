@@ -13,4 +13,3 @@ namespace Validator {
       => Regex.IsMatch(input, pattern, options);
   }
 }
-

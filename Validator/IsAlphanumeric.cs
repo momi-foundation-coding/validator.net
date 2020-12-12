@@ -11,4 +11,3 @@ namespace Validator {
       Regex.IsMatch(input, "^[a-zA-Z0-9]+$");
   }
 }
-
