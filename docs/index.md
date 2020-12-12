@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Welcome to .NET String Validator
 
-You can use the [editor on GitHub](https://github.com/ezkemboi/validator.net/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+*Port of [@chriso](https://github.com/chriso)'s library, [validator.js](https://github.com/validatorjs/validator.js)*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*First Developed by [@Alex](https://github.com/AlexArchive), former repo [Validator](https://github.com/AlexArchive/Validator)*
 
-### Markdown
+*Then, Developed by [@ezkemboi](https://github.com/ezkemboi)*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+Validator is [available on NuGet](https://www.nuget.org/packages/StringValidator):
 
-- Bulleted
-- List
+Package Manager: ```Install-Package StringValidator```
 
-1. Numbered
-2. List
+.NET CLI: ```dotnet add package StringValidator```
 
-**Bold** and _Italic_ and `Code` text
+Package Reference: ```<PackageReference Include="StringValidator" />```
 
-[Link](url) and ![Image](src)
+Paket CLI: ```paket add StringValidator```
+
+## Usage Example
+
+An Example on how to make use of StringValidator
+
+```c#
+// make sure StringValidator is added as a package. Check Above for Installation
+using System;
+
+namespace Example 
+{
+  public class Example 
+  {
+    static bool IsValidEmail(string email) {
+      var validEmail = Validator.IsEmail(email);
+      return validEmail;
+    }
+  }
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more validation see [Supported validation](https://github.com/ezkemboi/validator.net/blob/master/Readme.md).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ezkemboi/validator.net/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Support or Contact
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Usage of `StringValidator?` Please [raise issue](https://github.com/ezkemboi/validator.net/issues/new) and we’ll help you sort it out.
