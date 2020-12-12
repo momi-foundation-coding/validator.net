@@ -6,7 +6,7 @@
 
 ### Installation
 
-*dotnet add library package Validator*
+```Install-Package StringValidator```
 
 
 ### Tests 
