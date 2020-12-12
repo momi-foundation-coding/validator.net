@@ -9,7 +9,7 @@ namespace Validator.UnitTest
     [InlineData("foo123", true)]
     [InlineData("FOO", false)]
     [InlineData("FOO123", false)]
-    public void LowerCaseTest(string input, bool expected)
+    public void IsLowercase(string input, bool expected)
     {
       var actual = Validator.IsLowercase(input);
       Assert.Equal(expected, actual);
