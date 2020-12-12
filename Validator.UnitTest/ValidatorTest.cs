@@ -12,7 +12,7 @@ namespace Validator.UnitTest
     [InlineData("FOO123", false)]
     public void LowerCaseTest(string input, bool expected)
     {
-      var actual = Validator.IsLowerCase(input);
+      var actual = Validator.IsLowercase(input);
       Assert.Equal(expected, actual);
     }
   }
