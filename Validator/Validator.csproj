@@ -1,6 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>StringValidator</PackageId>
+    <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <LicenseUrl>https://github.com/ezkemboi/validator.net/blob/master/Licence.Md</LicenseUrl>
+    <RepositoryUrl>https://github.com/ezkemboi/validator.net</RepositoryUrl>
+    <ProjectUrl>https://github.com/ezkemboi/validator.net</ProjectUrl>
+    <Authors>EzrqnKemboi</Authors>
+    <Title>String Validation</Title>
+    <Summary>Easy validation of string</Summary>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <PackageTags>Validator;Validation;Stringvalidation;StringValidator</PackageTags>
+    <Description>This library is used to validate strings e.g validate a valid phone number, email, creditcard etc</Description>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
