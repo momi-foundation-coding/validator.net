@@ -4,11 +4,19 @@
 
 *First Developed by [@Alex](https://github.com/AlexArchive), former repo [Validator](https://github.com/AlexArchive/Validator)*
 
-### Installation
+*Then, Developed by [@ezkemboi](https://github.com/ezkemboi)*
 
-```Install-Package StringValidator```
+## Installation
 
+Validator is [available on NuGet](https://www.nuget.org/packages/StringValidator):
 
-### Tests 
+Package Manager: ```Install-Package StringValidator```
 
-- dotnet test
+.NET CLI: ```dotnet add package StringValidator```
+
+Package Reference: ```<PackageReference Include="StringValidator" />```
+
+Paket CLI: ```paket add StringValidator```
+
+## Maintainers
+[Ezrqn Kemboi](https://github.com/ezkemboi)
